@@ -1,7 +1,4 @@
-   /* Start Variables */
-   
-    :root {
-       /* --main-color: rgb(15 116 143 / 70%); */
+       :root {
        --main-color: #50cebe;
        --main-background: rgb(4, 4, 12);
        --transparent-color: rgb(15 116 143 / 70%);
@@ -10,8 +7,6 @@
        --main-padding-top: 100px;
        --main-padding-bottom: 100px;
    }
-   /* End Variables */
-   /* Start Global Rules */
    
    * {
        -webkit-box-sizing: border-box;
@@ -40,28 +35,24 @@
        margin-left: auto;
        margin-right: auto;
    }
-   /* Small */
    
    @media (min-width: 768px) {
        .container {
            width: 750px;
        }
    }
-   /* Medium */
    
    @media (min-width: 992px) {
        .container {
            width: 970px;
        }
    }
-   /* Large */
    
    @media (min-width: 1200px) {
        .container {
            width: 1170px;
        }
    }
-   /* End Global Rules */
    
    .spachal-latter {
        color: #0a090e;
@@ -744,22 +735,34 @@
    }
    
    .req input {
-       color: #000;
-       background-color: #009688;
+       color:white;
+       border: white 1px solid;
+       border-radius: 10px;
+       padding: 10px;
+       margin: 5px;
        font-size: 20px;
+       background-color: #000;
    }
    
    .colorselect {
-       background-color: #009688;
-       color: #000;
+    color:white;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #000;
    }
    
-   .req .textinput {
-       color: #000;
-   }
-   
-   .clilk {
+   input.clilk {
        margin-top: 40px;
+       background-color: #009688;
+       width: 130px;
+   }
+   input.clilk:hover{
+    background-color: white;
+    border: #009688 1px solid;
+    color: #009688;
+    cursor: pointer;
    }
    
    .error {
@@ -779,8 +782,11 @@
        color: #fff;
    }
    
-   .w-date {
-       width: 15px;
+   input.w-date {
+       width: 30px;
+       color: white;
+       background-color: #009688;
+       padding: 2px;
    }
    
    .result {
