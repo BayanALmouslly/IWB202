@@ -30,4 +30,5 @@ params.forEach((value, key) => {
     else
     paragraph.append(`${key} : ${value}`);
     paragraph.append(document.createElement('br'));
+    paragraph.append(document.createElement('br'));
 });
